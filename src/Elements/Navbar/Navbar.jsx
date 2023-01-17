@@ -42,7 +42,7 @@ function Navbar() {
               <div id="burgeropen">
                 <ul id="burgerinsidediv">
                   <li>Home</li>
-                  <li id="btn-2">Register</li>
+                  <li>Register</li>
                   <li>Timeline</li>
                   <li>Guidelines</li>
                   <li>Contact Us</li>
@@ -53,11 +53,11 @@ function Navbar() {
         )}
         {!burger && (
           <ul id="rightdiv">
-            <li>Home</li>
+            <li id="btn-1">Home</li>
             <li id="btn-2">Register</li>
-            <li>Timeline</li>
-            <li>Guidelines</li>
-            <li>Contact Us</li>
+            <li id="btn-3">Timeline</li>
+            <li id="btn-4">Guidelines</li>
+            <li id="btn-5">Contact Us</li>
           </ul>
         )}
       </nav>
