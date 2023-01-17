@@ -27,7 +27,7 @@ function Navbar() {
 
   return (
     <>
-      <nav id="navbardiv">
+      <nav id="navbardiv" className="fixed-top">
         <div id="logodiv">
           {/* logo
            */}
