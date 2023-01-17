@@ -7,7 +7,7 @@ export class Guidline extends Component {
       <>
         <section id="guidelines">
           <div className="mt-5">
-            <img src={Guidlinelogo} alt="" style={{ padding: "1.4rem" }} />
+            <img src={Guidlinelogo} alt="" style={{ padding: "1.4rem" }} id="guidelineslogo"/>
 
             <ul className="text-light ps-5">
               <li className="bullets-guideline">

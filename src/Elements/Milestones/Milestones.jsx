@@ -5,7 +5,7 @@ export default function Milestones() {
   return (
     <>
       <div className="my-5" id="rewards">
-        <img src={milestones} alt="" style={{ padding: "1.4rem" }} />
+        <img src={milestones} alt="" style={{ padding: "1.4rem" }} id="rewardslogo"/>
         {/* <h1 className="text-light">Rewards</h1> */}
         <ul className="text-light my-2 ps-5">
           <li className="bullets-guideline">

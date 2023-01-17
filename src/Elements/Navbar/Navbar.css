@@ -67,20 +67,25 @@ ul{
 }
 #btn-3 {
     cursor: pointer;
+    text-decoration: none !important;
 
 }
 #btn-1 {
-  cursor: pointer;
+  /* cursor: pointer; */
+  text-decoration: none !important;
 }
 #btn-2 {
-  cursor: pointer;
+  /* cursor: pointer; */
+  text-decoration: none;
 }
 #btn-4 {
-    cursor: pointer;
+    /* cursor: pointer; */
+    text-decoration: none;
 
 }
 #btn-5 {
-    cursor: pointer;
+    /* cursor: pointer; */
+    text-decoration: none;
 
 }
 #btn-1:hover {

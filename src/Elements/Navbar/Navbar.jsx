@@ -2,8 +2,7 @@ import React from "react";
 import "../Navbar/Navbar.css";
 import Icon from "../../Assets/Icon.png";
 import { useWindowSize } from "usehooks-ts";
-// import { HashLink as Link } from 'react-router-hash-link';
-// import {Link} from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 import Gdsc from "../../Assets/gdsc.png"
 import Glogo from "../../Assets/glogo.png"
 function Navbar() {
@@ -41,11 +40,13 @@ function Navbar() {
             {open && (
               <div id="burgeropen">
                 <ul id="burgerinsidediv">
-                  <li className="insideli" >Home</li>
+                  <Link to={"#mainsection"}><li className="insideli" >Home</li></Link>
                   <li className="insideli">Register</li>
-                  <li className="insideli">Timeline</li>
-                  <li className="insideli">Guidelines</li>
-                  <li className="insideli">Contact Us</li>
+                  <Link to={"#timelinediv"}><li className="insideli">Timeline</li></Link>
+                  <Link to={"#guidelineslogo"}><li className="insideli">Guidelines</li></Link>
+                  <Link to={"#rewardslogo"}><li className="insideli">Rewards</li></Link>
+                  <Link to={"#footer"}><li className="insideli">Contact Us</li></Link>
+
                 </ul>
               </div>
             )}
@@ -53,11 +54,11 @@ function Navbar() {
         )}
         {!burger && (
           <ul id="rightdiv">
-            <li id="btn-1">Home</li>
+            <Link to={"#mainsection"}><li id="btn-1">Home</li></Link>
             <li id="btn-2">Register</li>
-            <li id="btn-3">Timeline</li>
-            <li id="btn-4">Guidelines</li>
-            <li id="btn-5">Contact Us</li>
+            <Link to={"#timelinediv"}><li id="btn-3">Timeline</li></Link>
+            <Link to={"#guidelineslogo"}><li id="btn-4">Guidelines</li></Link>
+            <Link to={"#footer"}><li id="btn-5">Contact Us</li></Link>
           </ul>
         )}
       </nav>
