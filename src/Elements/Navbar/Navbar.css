@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#navbardiv{
+    height: 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid black;
+}
+#glogo{
+    height: 4vw;
+}
+#gdsc{
+    height: 5vw;
+    margin-bottom: 1vw;
+   
+}
+li{
+    list-style: none;
+    color:white
+}
+#rightdiv{
+    margin-right: 3vw !important;
+    max-height: 4vw;
+    width: 35vw;
+    max-width: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+#burgerinsidediv{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+    /* align-items: center; */
+}
+#burgeropen{
+    z-index: 0;
+    position: absolute;
+    top: 0vw;
+    right: 0vw; 
+    padding: 5vw;
+    background-color: rgb(66, 66, 66);
+    height: 40vh;
+    border-radius: 1.5rem;
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+#burgerdiv{
+    position: relative; 
+    
+}
+#logodiv{
+    height: 6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2vw !important;
+}
+@media(max-width: 1100px){
+    #glogo{
+        margin-left: 2vw !important;
+    }
+    #navbardiv{
+        height: 10vw;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #iconimg{
+        position: relative;
+        z-index: 1;
+        height: 4.5vw;
+        background-color: black;
+        border: 2px solid black;  
+        z-index: 2;
+        margin-right: 1vw !important;
+    
+    }
+
+}
+@media(max-width: 700px){
+    #glogo{
+        
+        height: 7vw;
+    }
+    #navbardiv{
+        height: 15vw;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        
+    }
+    #iconimg{
+        position: relative;
+        z-index: 1;
+        height: 7vw;
+        background-color: black;
+        border: 2px solid black;  
+        z-index: 2;
+        margin-right: 1vw !important;
+    
+    }
+}
+@media(max-width: 450px){
+    #glogo{
+        height: 8vw;
+        margin-top: 7vw !important;
+
+    }
+    #navbardiv{
+        height: 15vw;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    #iconimg{
+        position: relative;
+        z-index: 1;
+        height: 8vw;
+        background-color: black;
+        border: 2px solid black;  
+        z-index: 2;
+        margin-right: 1vh !important;
+        margin-top: 7vw !important;
+
+    
+    }
+    #burgeropen{
+        z-index: 0;
+        position: absolute;
+        top: 0vw;
+        right: 0vw; 
+        padding: 5vw;
+        background-color: rgb(66, 66, 66);
+        height: 35vh;
+        border-radius: 1.5rem;
+    
+    }
+}

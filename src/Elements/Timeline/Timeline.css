@@ -1,0 +1,57 @@
+
+
+#card1 {
+    /* background-color: rgb(216,81,64);
+     */
+    background-image: linear-gradient(
+      to bottom,
+      #d85140,
+      #db6850,
+      #de7c62,
+      #e09075,
+      #e1a28a
+    );
+  }
+  #card2 {
+    /* background-color: rgb(83,131,236); */
+    background-image: linear-gradient(
+      to bottom,
+      #5383ec,
+      #608dea,
+      #6d97e8,
+      #7ba1e4,
+      #8aaae1
+    );
+  }
+  #card3 {
+    /* background-color: rgb(86,161,90); */
+    background-image: linear-gradient(
+      to bottom,
+      #56a15a,
+      #60b174,
+      #6cc18d,
+      #7ad1a6,
+      #8ae1bf
+    );
+  }
+  #card4 {
+    /* background-color: rgb(241,191,66); */
+    background-image: linear-gradient(
+      to bottom,
+      #f1bf42,
+      #ecc455,
+      #e8c967,
+      #e4cd79,
+      #e1d18a
+    );
+  }
+  #card5 {
+    background-image: linear-gradient(
+      to bottom,
+      #d85140,
+      #db6850,
+      #de7c62,
+      #e09075,
+      #e1a28a
+    );
+  }

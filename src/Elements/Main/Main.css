@@ -1,0 +1,23 @@
+#logo {
+    width: 33vw;
+  }
+  #campaignlogo {
+    height: 5vw;
+  }
+  
+  #mainsection {
+    height: 100vh;
+    /* background-color: rgb(47,47,47); */
+  }
+  #registerbtn {
+    padding: 1vh 5vw;
+    color: rgb(241, 191, 66);
+    border: 2px solid rgb(241, 191, 66);
+    margin-top: 1.5vw !important;
+  }
+  
+  #registerbtn:hover {
+    color: rgb(47, 47, 47);
+    background-color: rgba(255, 174, 0, 0.919);
+    border: 1px solid rgba(255, 174, 0, 0.919);
+  }

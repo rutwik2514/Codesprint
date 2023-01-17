@@ -1,0 +1,169 @@
+::-webkit-scrollbar {
+  display: none;
+}
+* {
+  padding: 0vw;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+body {
+  background-color: black !important;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+.bullets-guideline {
+  list-style: none;
+}
+
+.bullets-guideline::before {
+  content: "\2022";
+  color: white;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+#horizontalline {
+  color: orange;
+}
+
+#timelinelogo {
+  width: 25vw;
+}
+#pagediv {
+  background: fixed;
+  background-color: black;
+  z-index: -1;
+}
+.bg {
+  background: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+
+  z-index: -2;
+}
+.content {
+  position: absolute;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+@media (max-width: 574px) {
+  
+  .footer-col {
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-left: 3vw;
+  }
+  .footerlogo {
+    width: 125px;
+    padding: 20px 0;
+  }
+  #footerlogo {
+    width: 43vw !important;
+    margin-top: 0vw !important;
+  }
+  #footerdiv {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
+@media (max-width: 1000px) {
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+  #card1 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card2 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card3 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card4 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  #card5 {
+    width: 75vw !important;
+    margin-bottom: 3.5vw !important;
+  }
+  .footerlogo {
+    width: 35vw;
+    padding: 20px 0;
+  }
+  #timelinediv {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+}
+@media (max-width: 768px) {
+  #gdscimage {
+    display: none;
+    /* max-width: 60vw; */
+  }
+  #registerbtn {
+    padding: 0.4vh 3vw;
+    color: rgb(241, 191, 66);
+    border: 2px solid rgb(241, 191, 66);
+    margin-top: 2vw !important;
+  }
+  #tagline {
+    width: 37vw;
+  }
+  #campaignlogo {
+    height: 7.5vw;
+  }
+  #logo {
+    width: 50vw;
+  }
+  #navdiv {
+    height: 10vw;
+  }
+  #mainsection {
+    height: 100vh;
+  }
+  #gdsclogo {
+    /* padding-top: 1vh;
+    padding-left: 1vw; */
+    margin-top: 0vw !important;
+    display: flex;
+    width: 8vh;
+  }
+}
+@media (max-width: 380px) {
+  .awesomefnt {
+    width: 1.3rem;
+    margin-right: 1.5vw !important;
+  }
+  #gdsclogo {
+    /* padding-top: 1vh;
+    padding-left: 1vw; */
+    margin-top: 0vw;
+    display: flex;
+    width: 8vh;
+  }
+}
+@media (max-width: 340px) {
+  .awesomefnt {
+    width: 1.2rem;
+    margin-right: 1.5vw !important;
+  }
+  #gdsclogo {
+    /* padding-top: 1vh;
+    padding-left: 1vw; */
+    margin-top: 0vw !important;
+    display: flex;
+    width: 8vh;
+  }
+}

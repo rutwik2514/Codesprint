@@ -1,0 +1,41 @@
+.upper-div {
+    background-color: #3c3a3a;
+    border-radius: 0.5rem;
+  }
+  
+  .lower-div {
+    background-color: #efefef;
+    border-radius: 0.3rem;
+    padding-left: 0.4rem;
+    padding-right: 0.1rem;
+  }
+  #plus1 {
+    color: white;
+  }
+  
+  #minus1 {
+    color: white;
+  }
+  
+  #plus2 {
+    color: white;
+  }
+  
+  #minus2 {
+    color: white;
+  }
+  
+  #plus3 {
+    color: white;
+  }
+  
+  #minus3 {
+    color: white;
+  }
+  #faqmaindiv {
+    background-color: rgb(47, 47, 47);
+  }
+  #faqsubdiv {
+    border: 1px solid white;
+  }
+  
