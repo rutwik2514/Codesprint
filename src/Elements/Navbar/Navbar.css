@@ -3,7 +3,6 @@
   padding: 0;
 }
 #navbardiv {
-  /* position: fixed; */
   height: 8vw;
   display: flex;
   justify-content: space-between;
@@ -37,9 +36,6 @@ ul{
   display: flex;
   flex-direction: column;
   list-style: none;
-  /* margin: 3vh !important; */
-
-  /* align-items: center; */
 }
 .insideli{
     margin-top: 3vh !important;
@@ -110,7 +106,7 @@ ul{
 }
 @media (max-width: 1100px) {
   #glogo {
-    margin-left: 2vw !important;
+    margin: 3vw 0vw 3vw 2vw!important;
     height: 5vw;
   }
   #navbardiv {
@@ -138,7 +134,7 @@ ul{
 
   }
   #navbardiv {
-    /* height: 15vw; */
+    height: 11vw;
     background-color: black;
     display: flex;
     justify-content: space-between;
