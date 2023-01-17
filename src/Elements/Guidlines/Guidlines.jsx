@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Guidlinelogo from "../../Assets/Guidelines.svg";
+import "../Guidlines/Guidlines.css"
 export class Guidline extends Component {
   render() {
     return (

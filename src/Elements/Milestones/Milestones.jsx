@@ -1,10 +1,10 @@
 import React from "react";
 import milestones from "../../Assets/Milestones.svg";
-
+import "../Milestones/Milestones.css"
 export default function Milestones() {
   return (
     <>
-      <div className="my-5">
+      <div className="my-5" id="rewards">
         <img src={milestones} alt="" style={{ padding: "1.4rem" }} />
         {/* <h1 className="text-light">Rewards</h1> */}
         <ul className="text-light my-2 ps-5">
@@ -19,19 +19,6 @@ export default function Milestones() {
             Complete full-stack development skills which is in demand for
             current scenario.
           </li>
-          {/* <li className="bullets-guideline">
-          </li>
-          <li className="bullets-guideline">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea, sint!
-          </li>
-          <li className="bullets-guideline">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat,
-            enim.
-          </li>
-          <li className="bullets-guideline">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
-            perferendis.
-          </li> */}
         </ul>
       </div>
     </>
