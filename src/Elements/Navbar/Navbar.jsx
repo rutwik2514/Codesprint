@@ -41,11 +41,11 @@ function Navbar() {
             {open && (
               <div id="burgeropen">
                 <ul id="burgerinsidediv">
-                  <li>Home</li>
-                  <li>Register</li>
-                  <li>Timeline</li>
-                  <li>Guidelines</li>
-                  <li>Contact Us</li>
+                  <li className="insideli" >Home</li>
+                  <li className="insideli">Register</li>
+                  <li className="insideli">Timeline</li>
+                  <li className="insideli">Guidelines</li>
+                  <li className="insideli">Contact Us</li>
                 </ul>
               </div>
             )}
