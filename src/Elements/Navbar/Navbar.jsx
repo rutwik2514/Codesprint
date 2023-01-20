@@ -40,12 +40,12 @@ function Navbar() {
             {open && (
               <div id="burgeropen">
                 <ul id="burgerinsidediv">
-                  <Link to={"#mainsection"}><li className="insideli" >Home</li></Link>
+                  <Link to={"#mainsection"} style={{ textDecoration: 'none' }}><li className="insideli" >Home</li></Link>
                   <li className="insideli">Register</li>
-                  <Link to={"#timelinediv"}><li className="insideli">Timeline</li></Link>
-                  <Link to={"#guidelineslogo"}><li className="insideli">Guidelines</li></Link>
-                  <Link to={"#rewardslogo"}><li className="insideli">Rewards</li></Link>
-                  <Link to={"#footer"}><li className="insideli">Contact Us</li></Link>
+                  <Link to={"#timelinediv"} style={{ textDecoration: 'none' }}><li className="insideli">Timeline</li></Link>
+                  <Link to={"#guidelineslogo"} style={{ textDecoration: 'none' }}><li className="insideli">Guidelines</li></Link>
+                  <Link to={"#rewardslogo"} style={{ textDecoration: 'none' }}><li className="insideli">Rewards</li></Link>
+                  <Link to={"#footer"} style={{ textDecoration: 'none' }}><li className="insideli">Contact Us</li></Link>
 
                 </ul>
               </div>
@@ -54,11 +54,11 @@ function Navbar() {
         )}
         {!burger && (
           <ul id="rightdiv">
-            <Link to={"#mainsection"}><li id="btn-1">Home</li></Link>
+            <Link to={"#mainsection"} style={{ textDecoration: 'none' }}><li id="btn-1">Home</li></Link>
             <li id="btn-2">Register</li>
-            <Link to={"#timelinediv"}><li id="btn-3">Timeline</li></Link>
-            <Link to={"#guidelineslogo"}><li id="btn-4">Guidelines</li></Link>
-            <Link to={"#footer"}><li id="btn-5">Contact Us</li></Link>
+            <Link to={"#timelinediv"} style={{ textDecoration: 'none' }}><li id="btn-3">Timeline</li></Link>
+            <Link to={"#guidelineslogo"} style={{ textDecoration: 'none' }}><li id="btn-4">Guidelines</li></Link>
+            <Link to={"#footer"} style={{ textDecoration: 'none' }}><li id="btn-5">Contact Us</li></Link>
           </ul>
         )}
       </nav>
