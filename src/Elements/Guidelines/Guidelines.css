@@ -1,0 +1,15 @@
+#guidelines{
+padding-right: 3vw;
+}
+
+.bullets-guideline {
+    list-style: none;
+  }
+  
+.bullets-guideline::before {
+    content: "\2022";
+    color: white;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+  }
