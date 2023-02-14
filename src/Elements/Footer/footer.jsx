@@ -45,7 +45,7 @@ export default function Footer() {
         <div className="footer-container" >
           <div className="footer-row" id="footerdiv">
             <div className="footer-col"  >
-              <img src={Logo} className="footerlogo" alt="not found" id="footerlogo"/>
+              <img src={Logo} className="footerlogo ms-md-1" alt="not found" id="footerlogo"/>
             </div>
             <div className="footer-col my-1">
               <h4>More Links</h4>

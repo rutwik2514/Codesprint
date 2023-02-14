@@ -11,15 +11,15 @@ function Timeline() {
               id="card1"
             >
               <h3 className="text-center textdarkt fw-bold my-2">
-                Dive Into Web
+                API SPRINT
               </h3>
               <div className="row justify-content-center align-items-center">
                 <h6 className="text-center text-dark m-2">
-                  18th January, 2023
+                  13th February, 2023(1pm-2pm)
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Dive into the structure & introduction of the web development.
+               Intro to Postman API and other API rendering ways 
               </p>
             </div>
             <div
@@ -28,16 +28,15 @@ function Timeline() {
               id="card2"
             >
               <h3 className="text-center text-dark fw-bold my-2">
-                Let's React
+              Intro to web dev 
               </h3>
               <div className="row justify-content-center">
                 <h6 className="text-center text-dark m-2">
-                  23th January, 2023
+                  16th February, 2023 (2pm-3pm)
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Detailed session ReactJS library which will help you grasp each
-                and every of aspect of front-end stack.
+               Dive into the structure & introduction of the web development.
               </p>
             </div>
             <div
@@ -45,15 +44,15 @@ function Timeline() {
               style={{ height: "18rem" }}
               id="card3"
             >
-              <h3 className="text-center text-dark fw-bold my-2">Code Node</h3>
+              <h3 className="text-center text-dark fw-bold my-2">Lets react </h3>
               <div className="row justify-content-center">
                 <h6 className="text-center text-dark m-2">
-                  30th January, 2023
+                  20th February, 2023 (2pm-3pm)
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Session on ways to handle servers & manage databases with
-                NodeJS, a complete back-end experience with many features of it.
+               Detailed session ReactJS library which will help you grasp each
+                and every of aspect of front-end stack.
               </p>
             </div>
           </div>
@@ -65,15 +64,16 @@ function Timeline() {
               style={{ height: "18rem" }}
               id="card4"
             >
-              <h3 className="text-center text-dark fw-bold my-2">API Sprint</h3>
+              <h3 className="text-center text-dark fw-bold my-2">Code Node 
+</h3>
               <div className="row justify-content-center">
                 <h6 className="text-center text-dark m-2">
-                  6th February, 2023
+                  3rd April, 2023(2pm-3pm)
                 </h6>
               </div>
               <p className="text-center text-light text-light">
-                Intro to Postman API and other API rendering ways which will
-                help you playing with the
+               Session on ways to handle servers & manage databases with
+      NodeJS, a complete back-end experience with many features of it.
               </p>
             </div>
             <div
@@ -86,7 +86,7 @@ function Timeline() {
               </h3>
               <div className="row justify-content-center">
                 <h6 className="text-center text-dark m-2">
-                  13th February, 2023
+                  19th April, 2023(2pm-3pm)
                 </h6>
               </div>
               <p className="text-center text-light text-light">
@@ -118,3 +118,19 @@ function Timeline() {
 }
 
 export default Timeline;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

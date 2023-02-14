@@ -13,7 +13,6 @@ export class Guidline extends Component {
               <li className="bullets-guideline">
                 Participants should avoid plagiarism, Contestant will be disqualified is found doing so.
               </li>
-              <li className="bullets-guideline">Participants</li>
               <li className="bullets-guideline">
                 The time limit will not be exceeded once it's confirm by managing team.
               </li>
