@@ -15,7 +15,7 @@ export default function Main() {
                         <h3 className="text-center"><img src={Logo} alt="" id="logo" /></h3>
                         <h3 className="text-center"><img src={Tagline} alt="" id="tagline" /></h3>
 
-                        <button type="button" className="btn btn-custom button1 fw-bold" id="registerbtn">Register</button>
+                        <button type="button" onClick={()=>window.open("https://gdsc.community.dev/events/details/developer-student-clubs-indian-institute-of-information-technology-surat-presents-chapter-1-intro-to-web-dev-codesprint/")} className="btn btn-custom button1 fw-bold" id="registerbtn">Register</button>
                 </div>
             </section>
             </section>
